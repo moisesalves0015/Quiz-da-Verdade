@@ -1,0 +1,23 @@
+#welcome {
+  text-align: center;
+  max-width: 400px;
+}
+
+#welcome h2,
+#welcome p {
+  margin-bottom: 1rem;
+}
+
+#welcome p {
+  color: #1DC9A1;
+}
+
+#welcome img {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+#conheca{
+
+  
+  font-size: 12px;
+}

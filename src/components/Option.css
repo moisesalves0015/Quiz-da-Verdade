@@ -1,0 +1,48 @@
+.option {
+/* From https://css.glass */
+background: rgba(29, 201, 161, 0.56);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.2px);
+-webkit-backdrop-filter: blur(5.2px);
+border: 1px solid rgba(29, 201, 161, 0.48);
+
+
+  border-radius: 0.5rem;
+  padding: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.1s;
+  font-size: 12px;
+}
+
+.option:hover {
+  scale: 1.04;
+
+}
+
+#options-container .option p {
+  margin-bottom: 0;
+}
+
+.correct {
+  background-color: #1DC9A1;
+  font-weight: bold;
+  color: white;
+
+}
+
+.wrong {
+  background: rgba(29, 201, 161, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.2px);
+  -webkit-backdrop-filter: blur(5.2px);
+  border: 1px solid rgba(29, 201, 161, 0.48);
+  opacity: 0.5;
+}
+
+.hide {
+  display: none;
+}
